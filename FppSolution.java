@@ -46,7 +46,7 @@ public class FppSolution {
         Inertial inertial = new Inertial();
         System.out.println(inertial.isInertial(nums));*/
 
-      //Count Perfect Square
+        //Count Perfect Square
 //        int[] nums = {11, 5, 4, 20 };
 //      int[] nums = {9, 0, 2, -5, 7};
         /*int[] nums = {9};
@@ -62,9 +62,18 @@ public class FppSolution {
 //        int[] nums = {8, 4, 2, 1};
 //        int[] nums = {8, 17, 4, 1};
 //        int[] nums = {8, 4, 1};
-        int[] nums = {8, 4, 2};
-        Guthrie guthrie = new Guthrie();
-        System.out.println(guthrie.isGuthrieSequence(nums));
+//        int[] nums = {8, 4, 2};
+//        Guthrie guthrie = new Guthrie();
+//        System.out.println(guthrie.isGuthrieSequence(nums));
+
+        //Stanton Measure
+        // int a[] = {1};
+//        int a[] = {0};
+//        int a[] = {3, 1, 1, 4};
+//        int a[] = {1, 3, 1, 1, 3, 3, 2, 3, 3, 3, 4};
+        int a[] = {};
+        Stanton stanton = new Stanton();
+        System.out.println(stanton.stantonMeasure(a));
     }
 
 
