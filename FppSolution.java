@@ -71,9 +71,32 @@ public class FppSolution {
 //        int a[] = {0};
 //        int a[] = {3, 1, 1, 4};
 //        int a[] = {1, 3, 1, 1, 3, 3, 2, 3, 3, 3, 4};
-        int a[] = {};
+        /*int a[] = {};
         Stanton stanton = new Stanton();
-        System.out.println(stanton.stantonMeasure(a));
+        System.out.println(stanton.stantonMeasure(a));*/
+
+
+        //Sum Factor
+//        int a[] = {1};
+//        int a[] ={3, 0, 2, -5, 0};
+//        int a [] = {9, -3, -3, -1, -1};
+//        SumFactor sumFactor = new SumFactor();
+//        System.out.println(sumFactor.sumFactor(a));
+
+
+        //Gurithe Index
+//        int a = 1;
+//        int a = 2;
+//        int a = 3;
+//        int a = 4;
+//        int a = 42;
+//        GuthrieIndex guthrieIndex = new GuthrieIndex();
+//        System.out.println(guthrieIndex.guthrieIndex(a));
+
+
+        //Solve 10
+        Solve10 solve10 = new Solve10();
+        solve10.solve10();
     }
 
 
