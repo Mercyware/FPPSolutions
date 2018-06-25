@@ -4,7 +4,7 @@ public class Guthrie {
     public int isGuthrieSequence(int[] a) {
         EvenNumbers evenNumbers = new EvenNumbers();
         int newvalue = 0;
-        if (a[a.length - 1] != 0) return 0;
+        if (a[a.length - 1] != 1) return 0;
         for (int i = 0; i < a.length - 1; i++) {
             if (evenNumbers.isEven(a[i])) {
                 newvalue = a[i] / 2;
